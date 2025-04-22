@@ -28,7 +28,7 @@ joblib
 1. Download dataset from Kaggle: Telco Customer Churn
 2. Training the model by running 441_project.py
 3. Launch prediction web app through https://498-project-oyzu5aneovu7kydzrbnice.streamlit.app/
-4. Make Predictions
-    Fill in customer details using the web form
-    Click "Predict Churn Risk"
-    View prediction and probability percentage
+4. Make Predictions:
+    *Fill in customer details using the web form
+    *Click "Predict Churn Risk"
+    *View prediction and probability percentage
