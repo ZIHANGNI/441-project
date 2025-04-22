@@ -1,4 +1,4 @@
-# Customer Churn Prediction Based on Random Forest
+# Customer Churn Prediction Based on Machine Learning
 
 ## Summary
 This project aims to build a machine learning model to predict customer churn using a telecom industry dataset. The dataset includes features such as customer demographics, account tenure, monthly charges, and service usage patterns. The goal is to identify key drivers of churn and develop a predictive model that can help telecom companies improve customer retention strategies.
