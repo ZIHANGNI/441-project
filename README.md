@@ -29,6 +29,6 @@ joblib
 2. Training the model by running 441_project.py
 3. Launch prediction web app through https://498-project-oyzu5aneovu7kydzrbnice.streamlit.app/
 4. Make Predictions:
-     Fill in customer details using the web form.
-     Click "Predict Churn Risk".
-     View prediction and probability percentage.
+     1) Fill in customer details using the web form.
+     2) Click "Predict Churn Risk".
+     3) View prediction and probability percentage.
