@@ -14,3 +14,21 @@ This project aims to build a machine learning model to predict customer churn us
 ## Data Source
 The dataset used in this project is the **Telco Customer Churn** dataset from Kaggle:  
 [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+## Packages Required
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+joblib
+
+## Instructions On How To Run The Code
+1. Download dataset from Kaggle: Telco Customer Churn
+2. Training the model by running 441_project.py
+3. Launch prediction web app through https://498-project-oyzu5aneovu7kydzrbnice.streamlit.app/
+4. Make Predictions
+    Fill in customer details using the web form
+    Click "Predict Churn Risk"
+    View prediction and probability percentage
