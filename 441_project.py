@@ -64,12 +64,12 @@ def train_model(df):
     joblib.dump(scaler, 'scaler.pkl')
 
     print("\nLogistic Regression Performance:")
-    lr = LogisticRegression(max_iter=1000)
+    lr = LogisticRegression(max_iter=1000, class_weight='balanced')
     lr.fit(X_train, y_train)
     print(classification_report(y_test, lr.predict(X_test)))
 
     print("\nRandom Forest Tuning...")
-    rf = RandomForestClassifier(random_state=42)
+    rf = RandomForestClassifier(random_state=42, class_weight='balanced')
 
     param_grid = {
         'n_estimators': [100, 200],
